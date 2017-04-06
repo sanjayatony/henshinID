@@ -24,4 +24,7 @@
 			<?php get_template_part( 'components/post/content', 'meta' ); ?>
 		</header>
 	</div>
+	<div class="small-10 medium-8 small-centered columns">
+			<div class="border"></div>
+		</div>
 </article>

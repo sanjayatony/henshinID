@@ -49,6 +49,13 @@
 			?>
 		</div>
 	</div>
-	<?php if(is_single())
-		get_template_part( 'components/post/content', 'footer' ); ?>
+	<?php if(is_single()) :
+			get_template_part( 'components/post/content', 'footer' );
+		else : ?>
+		<div class="small-10 medium-8 small-centered columns">
+			<div class="border"></div>
+		</div>
+	<?php endif; ?>
+
+
 </article><!-- #post-## -->

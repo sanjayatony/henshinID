@@ -23,6 +23,7 @@ h2{
 }
 p{
 	font-family: $serif;
+	line-height: 1.8;
 }
 a{
 	color:$link-color;
@@ -43,6 +44,9 @@ a{
 	.post-thumbnail img{
 		margin-bottom: 10px;
 	}
+}
+.site-main{
+	padding: 15px;
 }
 .content-area{
 	padding-top: .9375rem;
@@ -135,4 +139,8 @@ img.custom-logo{
 .rider-head {
   width: 25px;
   vertical-align: text-bottom; 
+}
+.border{
+	border-bottom:1px solid rgba($base-color,0.1);
+	padding-top:30px;
 }

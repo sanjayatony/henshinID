@@ -18,7 +18,8 @@ h2 {
     color: rgba(0, 0, 0, 0.8); }
 
 p {
-  font-family: "Droid Serif", serif; }
+  font-family: "Droid Serif", serif;
+  line-height: 1.8; }
 
 a {
   color: rgba(0, 0, 0, 0.4); }
@@ -36,6 +37,9 @@ a {
   margin-bottom: 80px; }
   .featured-content .post-thumbnail img {
     margin-bottom: 10px; }
+
+.site-main {
+  padding: 15px; }
 
 .content-area {
   padding-top: .9375rem;
@@ -114,5 +118,9 @@ img.custom-logo {
 .rider-head {
   width: 25px;
   vertical-align: text-bottom; }
+
+.border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 30px; }
 
 /*# sourceMappingURL=app.css.map */
